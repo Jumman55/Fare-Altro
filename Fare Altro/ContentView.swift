@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         Text("This is an upgrade version check")
             .padding()
-        
+     print("Nothing")   
     }
 }
 
