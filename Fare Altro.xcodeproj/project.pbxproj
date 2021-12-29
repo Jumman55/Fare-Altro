@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A74E18F4277CED8400025890 /* HideKeyboardExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E18F3277CED8400025890 /* HideKeyboardExtention.swift */; };
+		A74E18F6277CEDC900025890 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E18F5277CEDC900025890 /* ViewRouter.swift */; };
+		A74E18F8277CEE6A00025890 /* SignInPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E18F7277CEE6A00025890 /* SignInPageView.swift */; };
+		A74E18FA277CEE8000025890 /* SignUpPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E18F9277CEE8000025890 /* SignUpPageView.swift */; };
+		A74E18FC277CEEAF00025890 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E18FB277CEEAF00025890 /* SettingsView.swift */; };
+		A74E18FE277CEEBB00025890 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E18FD277CEEBB00025890 /* HomeView.swift */; };
+		A74E1900277CEF5100025890 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E18FF277CEF5100025890 /* ButtonView.swift */; };
 		A7E7E6D3277CBE9200D06553 /* Fare_AltroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E7E6D2277CBE9200D06553 /* Fare_AltroApp.swift */; };
 		A7E7E6D5277CBE9200D06553 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E7E6D4277CBE9200D06553 /* ContentView.swift */; };
 		A7E7E6D7277CBE9300D06553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7E7E6D6277CBE9300D06553 /* Assets.xcassets */; };
@@ -14,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A74E18F3277CED8400025890 /* HideKeyboardExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtention.swift; sourceTree = "<group>"; };
+		A74E18F5277CEDC900025890 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		A74E18F7277CEE6A00025890 /* SignInPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPageView.swift; sourceTree = "<group>"; };
+		A74E18F9277CEE8000025890 /* SignUpPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPageView.swift; sourceTree = "<group>"; };
+		A74E18FB277CEEAF00025890 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A74E18FD277CEEBB00025890 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A74E18FF277CEF5100025890 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		A7E7E6CF277CBE9200D06553 /* Fare Altro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fare Altro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E7E6D2277CBE9200D06553 /* Fare_AltroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fare_AltroApp.swift; sourceTree = "<group>"; };
 		A7E7E6D4277CBE9200D06553 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +46,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A74E18EE277CEB7600025890 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A7E7E6D4277CBE9200D06553 /* ContentView.swift */,
+				A74E18F5277CEDC900025890 /* ViewRouter.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A74E18EF277CEB9A00025890 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A74E18F7277CEE6A00025890 /* SignInPageView.swift */,
+				A74E18F9277CEE8000025890 /* SignUpPageView.swift */,
+				A74E18FB277CEEAF00025890 /* SettingsView.swift */,
+				A74E18FD277CEEBB00025890 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A74E18F0277CEBA400025890 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7E7E6D2277CBE9200D06553 /* Fare_AltroApp.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A74E18F1277CECA800025890 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				A74E18FF277CEF5100025890 /* ButtonView.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		A74E18F2277CECC400025890 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				A74E18F3277CED8400025890 /* HideKeyboardExtention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
 		A7E7E6C6277CBE9200D06553 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +109,11 @@
 		A7E7E6D1277CBE9200D06553 /* Fare Altro */ = {
 			isa = PBXGroup;
 			children = (
-				A7E7E6D2277CBE9200D06553 /* Fare_AltroApp.swift */,
-				A7E7E6D4277CBE9200D06553 /* ContentView.swift */,
+				A74E18F0277CEBA400025890 /* Model */,
+				A74E18EE277CEB7600025890 /* ViewModel */,
+				A74E18EF277CEB9A00025890 /* View */,
+				A74E18F1277CECA800025890 /* Style */,
+				A74E18F2277CECC400025890 /* Extention */,
 				A7E7E6D6277CBE9300D06553 /* Assets.xcassets */,
 				A7E7E6D8277CBE9300D06553 /* Preview Content */,
 			);
@@ -137,8 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74E18FC277CEEAF00025890 /* SettingsView.swift in Sources */,
+				A74E18F4277CED8400025890 /* HideKeyboardExtention.swift in Sources */,
 				A7E7E6D5277CBE9200D06553 /* ContentView.swift in Sources */,
+				A74E18F8277CEE6A00025890 /* SignInPageView.swift in Sources */,
+				A74E18FA277CEE8000025890 /* SignUpPageView.swift in Sources */,
+				A74E18FE277CEEBB00025890 /* HomeView.swift in Sources */,
 				A7E7E6D3277CBE9200D06553 /* Fare_AltroApp.swift in Sources */,
+				A74E18F6277CEDC900025890 /* ViewRouter.swift in Sources */,
+				A74E1900277CEF5100025890 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
