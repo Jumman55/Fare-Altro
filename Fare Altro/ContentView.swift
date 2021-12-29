@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("This is an upgrade")
+        Text("This is an upgrade version check")
             .padding()
-        
+     print("Nothing")   
     }
 }
 
